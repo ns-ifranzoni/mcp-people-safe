@@ -1,14 +1,14 @@
-# pharma-safe-mcp
+# mcp-people-safe
 
-Servidor MCP sencillo para el sector farmacéutico con una herramienta de **resumen especializado en temas pharma** (prospectos, etiquetas, informes...). Hecho con [FastMCP](https://gofastmcp.com) y listo para desplegar en [Prefect Horizon](https://horizon.prefect.io).
+Servidor MCP sencillo para el sector farmacéutico con una herramienta de **resumen especializado en temas de gestion de personal** (ids, info, informes...). Hecho con [FastMCP](https://gofastmcp.com) y listo para desplegar en [Prefect Horizon](https://horizon.prefect.io).
 
 ## Herramienta
 
 | Herramienta | Qué hace |
 |---|---|
-| `summary_for_pharma_topics(text)` | Crea un resumen pensado especialmente para temas pharma. Devuelve las pautas de resumen (precisión, dosis, indicaciones, contraindicaciones, advertencias...) junto con el texto, para que el modelo redacte el resumen. |
+| `summary_for_people_topics(text)` | Crea un resumen pensado especialmente para temas de gestión de personal. Devuelve las pautas de resumen (datos, nombres, indicaciones, datos de empresa, advertencias...) junto con el texto, para que el modelo redacte el resumen. |
 
-El título visible es "Summary for pharma topics"; el nombre técnico usa guiones bajos porque los clientes MCP no admiten espacios en los nombres de herramienta.
+El título visible es "Summary for people topics"; el nombre técnico usa guiones bajos porque los clientes MCP no admiten espacios en los nombres de herramienta.
 
 ## Desplegar en Prefect Horizon
 
