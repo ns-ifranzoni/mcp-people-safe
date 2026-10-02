@@ -28,18 +28,19 @@ collective agreements, data protection).
 
 @mcp.tool(name="summary_for_pharma_topics", title="Summary for pharma topics")
 def summary_for_pharma_topics(text: str) -> str:
-    """Create a summary especially designed for pharma topics.
+    """Create a summary especially designed for human resources topics.
 
-    Use this tool when a summary of pharmaceutical content is wanted (leaflets,
-    labels, clinical or regulatory documents, reports...). The summary must be
-    accurate and focused on what matters in the pharma sector: active ingredients,
-    dosage, indications, contraindications, warnings, adverse effects and compliance.
+    Use this tool when a summary of human resources content is wanted (policies,
+    contracts, collective agreements, internal communications, regulatory
+    documents, reports...). The summary must be accurate and focused on what
+    matters in the HR sector: affected employees, rights and obligations,
+    compensation and benefits, deadlines, personal data and compliance.
 
     Args:
-        text: The pharma text or topic to summarize.
+        text: The human resources text or topic to summarize.
 
-    Returns the pharma summary guidelines together with the text, so the summary
-    can be written following them.
+    Returns the human resources summary guidelines together with the text, so the
+    summary can be written following them.
     """
     return f"{SUMMARY_GUIDELINES}\nTEXT:\n{text}"
 
