@@ -11,12 +11,17 @@ mcp = FastMCP(
 )
 
 SUMMARY_GUIDELINES = """\
-Write a summary of the text below, specially designed for the pharmaceutical sector:
+Write a summary of the text below, specially designed for the Human Resources sector:
 - Be accurate and faithful to the source. Do not add, infer or invent information.
-- Keep exact figures, units, dosages, dates and product/active ingredient names.
-- Highlight, when present: indication, dosage and administration, contraindications, \
-warnings, adverse effects, interactions, storage and regulatory/compliance points.
-- Use clear, neutral, professional language and keep it concise.
+- Keep exact figures, amounts, percentages, dates, deadlines, job titles and names of \
+policies, agreements or regulations.
+- Highlight, when present: purpose and scope, affected employees or roles, rights and \
+obligations, compensation and benefits, working hours and leave, deadlines and \
+procedures, sanctions or consequences, and legal/compliance points (labour law, \
+collective agreements, data protection).
+- Treat personal data with care: do not reproduce sensitive personal details \
+(health, salary of named individuals, disciplinary records) beyond what is necessary.
+- Use clear, neutral, professional and inclusive language and keep it concise.
 - If something important is missing or ambiguous in the source, say so explicitly.
 """
 
